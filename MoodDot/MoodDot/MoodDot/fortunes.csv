@@ -1,0 +1,101 @@
+mood,text,id
+joy,이유 없이 마음이 먼저 웃는다.,joy_001
+joy,기쁨이 가볍게 안쪽에서 번진다.,joy_002
+joy,작은 행운은 소리 없이 다가와 손바닥에 앉는다.,joy_003
+joy,괜찮다는 말이 몸에서 먼저 나온다.,joy_004
+joy,숨이 깊어지며 마음이 느슨해진다.,joy_005
+joy,설렘은 준비물 없이도 시작된다.,joy_006
+joy,지금의 행복을 미루지 않기로 한다.,joy_007
+joy,마음이 환해져서 선택이 쉬워진다.,joy_008
+joy,웃지 않아도 이미 따뜻하다.,joy_009
+joy,작은 좋은 일이 하루를 구해낸다.,joy_010
+joy,기분이 나를 위로하지 않아도 충분하다.,joy_011
+joy,이 감정이 사라져도 흔적은 남는다.,joy_012
+joy,기쁨이 나를 바꾸지 않고 그냥 둔다.,joy_013
+joy,마음이 스스로를 믿어본다.,joy_014
+joy,생각보다 내가 괜찮다는 느낌이 든다.,joy_015
+joy,긴장이 풀리며 감정이 둥글어진다.,joy_016
+joy,이유 없는 평온이 가장 설득력 있다.,joy_017
+joy,기쁨이 말을 줄이고 감각을 남긴다.,joy_018
+joy,마음이 오래 기다린 빛을 받는다.,joy_019
+joy,행복이 소리 대신 온도로 남는다.,joy_020
+disgust,기분이 상한 건 약해서가 아니라 정확해서다.,disgust_001
+disgust,마음이 거칠어질 땐 숨을 한 박자 늦추는 게 이긴다.,disgust_002
+disgust,남의 기대를 덜어내면 내 숨이 돌아온다.,disgust_003
+disgust,싫은 건 싫다고 인정하는 순간이 시작이다.,disgust_004
+disgust,나를 불편하게 만든 것과는 멀어질 시간이다.,disgust_005
+disgust,불쾌함은 예민함이 아니라 경계선이다.,disgust_006
+disgust,입안에 남은 찝찝함처럼 하루가 거칠다.,disgust_007
+disgust,억지로 삼키면 결국 체한다.,disgust_008
+disgust,기분이 상한 게 아니라 질서가 깨진 거다.,disgust_009
+disgust,친절로 덮어두던 진실이 드러난다.,disgust_010
+disgust,내 감정이 더 이상 포장지를 제공하지 않는다.,disgust_011
+disgust,내가 나를 존중하기 시작했다는 신호다.,disgust_012
+disgust,애매한 호의를 끊어내는 선명함이다.,disgust_013
+disgust,더 이상 납득하지 않겠다는 내면의 선언이다.,disgust_014
+disgust,감정이 날카로울 땐 결론보다 정리가 먼저다.,disgust_015
+disgust,불쾌한 순간엔 ‘왜’보다 ‘뭐가’부터 붙잡는 게 낫다.,disgust_016
+disgust,속이 불편할 땐 결론을 미루고 온도를 낮춘다.,disgust_017
+disgust,마음의 먼지는 하루치면 충분히 쌓인다.,disgust_018
+disgust,오늘의 날카로움은 내일의 단단함을 만드는 재료다.,disgust_019
+disgust,마음이 더러워졌다고 느낄 땐 공간을 먼저 씻어낸다.,disgust_020
+sadness,슬픔은 약함이 아니라 상실을 알아보는 감각이다.,sadness_001
+sadness,견디는 하루는 성과가 아니라 생존 기록이다.,sadness_002
+sadness,비어 보이는 시간에도 마음은 정리되고 있다.,sadness_003
+sadness,오늘의 공허는 마음이 비워진 자리를 정확히 보여준다.,sadness_004
+sadness,슬픔은 나를 망치는 게 아니라 내게 중요한 걸 알려준다.,sadness_005
+sadness,눈앞이 흐릴 땐 결정을 미루는 게 현명하다.,sadness_006
+sadness,슬픔은 설명이 아니라 동행을 원한다.,sadness_007
+sadness,마음이 무거운 날엔 계획보다 안전이 먼저다.,sadness_008
+sadness,오늘의 슬픔은 내 안의 진실이 눌러쓴 잉크다.,sadness_009
+sadness,"마음에 비가 내리는데, 우산은 안 펴진다.",sadness_010
+sadness,마음이 젖으면 기억은 더 선명해진다.,sadness_011
+sadness,"잊힌 게 아니라, 잠시 가라앉아 있다.",sadness_012
+sadness,작은 소리에도 가슴이 먼저 움찔한다.,sadness_013
+sadness,오늘은 내 그림자까지 무겁다.,sadness_014
+sadness,아무도 모르게 마음이 금이 간다.,sadness_015
+sadness,가슴속에 젖은 종이가 붙어 있다.,sadness_016
+sadness,아무렇지 않은 표정이 가장 아프다.,sadness_017
+sadness,공기가 무거워서 숨도 조용해진다.,sadness_018
+sadness,희미한 빛이 더 외롭게 만든다.,sadness_019
+sadness,하루가 무채색으로 정리된다.,sadness_020
+fear,어둠보다 무서운 건 상상력의 속도다.,fear_001
+fear,괜찮은 척하는 손이 제일 떨린다.,fear_002
+fear,아직 오지 않은 일이 벌써 목을 조른다.,fear_003
+fear,눈앞은 그대로인데 마음만 급히 달린다.,fear_004
+fear,사소한 틈이 크게 벌어져 보인다.,fear_005
+fear,바람 소리에도 마음이 문을 잠근다.,fear_006
+fear,어깨가 올라가고 세상이 좁아진다.,fear_007
+fear,아무 일도 없는데 이미 지친다.,fear_008
+fear,낯선 침묵이 칼집에서 미끄러진다.,fear_009
+fear,눈앞의 정상보다 뒤의 낭떠러지가 선명하다.,fear_010
+fear,현실은 그대로인데 내 안의 날씨만 폭풍이다.,fear_011
+fear,온 세상이 한 박자 빠르게 들린다.,fear_012
+fear,안전이라는 단어가 종잇장처럼 얇다.,fear_013
+fear,미세한 떨림이 하루의 바탕이 된다.,fear_014
+fear,최악을 상상했다면 최선도 똑같이 상상해야 공평하다.,fear_015
+fear,불안은 해결이 아니라 소진을 목표로 하니 끌려가면 진다.,fear_016
+fear,아무도 없는데 시선만 남아 있다.,fear_017
+fear,생각이 검은 물처럼 천천히 번진다.,fear_018
+fear,"겁이 커질수록 말을 줄이고, 종이에 옮겨 무게를 나누는 게 답이다.",fear_019
+fear,두려움이 커질수록 혼자 버티려 하지 않는 게 더 용기다.,fear_020
+anger,분노는 목구멍에서 먼저 뜨거워진다.,anger_001
+anger,잃어버린 존중이 가장 아프게 남는다.,anger_002
+anger,침착함이 바닥에서 미끄러진다.,anger_003
+anger,"분노는 나를 키우기도, 망치기도 한다.",anger_004
+anger,내 안의 선이 끊어지는 소리가 들린다.,anger_005
+anger,불이 꺼진 뒤에도 재는 남는다.,anger_006
+anger,눈앞이 붉어지고 판단은 검어진다.,anger_007
+anger,고개가 뜨거워지고 손은 차가워진다.,anger_008
+anger,세상이 나를 만만하게 다룬 듯한 날이 있다.,anger_009
+anger,뜨거운 감정 뒤엔 늘 서늘한 공기가 온다.,anger_010
+anger,기억이 같은 장면을 끝없이 되감는다.,anger_011
+anger,혈관을 타고 열이 올라와 눈을 번쩍 뜨게 한다.,anger_012
+anger,말이 아니라 표정이 먼저 날을 세운다.,anger_013
+anger,분노는 내 안의 질서를 다시 세우려는 폭풍이다.,anger_014
+anger,할 말이 많을수록 한 문장만 남긴다.,anger_015
+anger,화가 치밀면 입은 닫고 손부터 움직인다.,anger_016
+anger,"지금의 분노가 과거를 끌고 오면, 출처부터 분리해 놓는다.",anger_017
+anger,"내 안이 불타는 날엔, 상대를 태우려 말고 나부터 꺼낸다.",anger_018
+anger,"분노가 눈을 붉히면, 사실만 남기고 해석은 버린다.",anger_019
+anger,"억울함이 끓을 땐, ‘누가’보다 ‘무엇이’ 상처였는지 붙잡는다.",anger_020

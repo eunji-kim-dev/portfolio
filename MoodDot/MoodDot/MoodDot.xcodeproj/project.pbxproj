@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6AF169E2EF2F87800F6C73E /* fortunes.csv in Resources */ = {isa = PBXBuildFile; fileRef = B6AF169D2EF2F87800F6C73E /* fortunes.csv */; };
+		B6AF16A02EF3024300F6C73E /* SettingsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF169F2EF3024300F6C73E /* SettingsHomeView.swift */; };
+		B6AF16A22EF302C200F6C73E /* BGMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF16A12EF302C200F6C73E /* BGMManager.swift */; };
+		B6AF16A42EF3033A00F6C73E /* Starlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6AF16A32EF3033A00F6C73E /* Starlight.mp3 */; };
+		B6AF16A62EF303BE00F6C73E /* BackgroundMusicSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF16A52EF303BE00F6C73E /* BackgroundMusicSettingsView.swift */; };
+		B6AF16A82EF3047900F6C73E /* AppLockSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF16A72EF3047900F6C73E /* AppLockSettingsView.swift */; };
+		B6C258B12EF307060089FF77 /* AppLockGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258B02EF307060089FF77 /* AppLockGate.swift */; };
+		B6C258B32EF3073E0089FF77 /* AppLockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258B22EF3073E0089FF77 /* AppLockManager.swift */; };
+		B6C258BF2EF309AD0089FF77 /* Fortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258BE2EF309AD0089FF77 /* Fortune.swift */; };
+		B6C258C42EF30B290089FF77 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258C32EF30B290089FF77 /* NotificationManager.swift */; };
+		B6C258C62EF30B510089FF77 /* RegularReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258C52EF30B510089FF77 /* RegularReminderSettingsView.swift */; };
+		B6C258C82EF312AC0089FF77 /* Even-though-a-breeze-blowing-on-snowflakes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6C258C72EF312AC0089FF77 /* Even-though-a-breeze-blowing-on-snowflakes.mp3 */; };
+		B6C258CA2EF313E80089FF77 /* Days-and-Works.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6C258C92EF313E80089FF77 /* Days-and-Works.mp3 */; };
+		B6C258CC2EF316910089FF77 /* Midnight-Paradise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6C258CB2EF316910089FF77 /* Midnight-Paradise.mp3 */; };
+		B6C258CE2EF318300089FF77 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258CD2EF318300089FF77 /* Fonts.swift */; };
+		B6C258D02EF3219F0089FF77 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258CF2EF3219F0089FF77 /* RootTabView.swift */; };
+		B6C258D22EF321BB0089FF77 /* RecordsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258D12EF321BB0089FF77 /* RecordsListView.swift */; };
+		B6C258D42EF359A50089FF77 /* StatsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C258D32EF359A50089FF77 /* StatsHomeView.swift */; };
+		B6C258D62EF35D550089FF77 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6C258D52EF35D550089FF77 /* Pretendard-Black.otf */; };
+		B6D8B60E2EF2BFAA004F9BB4 /* MoodDotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B60D2EF2BFAA004F9BB4 /* MoodDotApp.swift */; };
+		B6D8B6122EF2BFB2004F9BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D8B6112EF2BFB2004F9BB4 /* Assets.xcassets */; };
+		B6D8B6382EF2C14A004F9BB4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B6372EF2C14A004F9BB4 /* SplashView.swift */; };
+		B6D8B63A2EF2C369004F9BB4 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6D8B6392EF2C369004F9BB4 /* Pretendard-ExtraBold.otf */; };
+		B6D8B63F2EF2CE9A004F9BB4 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B63E2EF2CE9A004F9BB4 /* Color+Hex.swift */; };
+		B6D8B6412EF2CFD5004F9BB4 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B6402EF2CFD5004F9BB4 /* Mood.swift */; };
+		B6D8B6432EF2CFFF004F9BB4 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B6422EF2CFFF004F9BB4 /* MoodEntry.swift */; };
+		B6D8B6452EF2D072004F9BB4 /* MoodStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B6442EF2D072004F9BB4 /* MoodStore.swift */; };
+		B6D8B6472EF2D13E004F9BB4 /* CalendarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B6462EF2D13E004F9BB4 /* CalendarHomeView.swift */; };
+		B6D8B6492EF2D1B2004F9BB4 /* MoodPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B6482EF2D1B2004F9BB4 /* MoodPickerSheet.swift */; };
+		B6D8B64B2EF2D946004F9BB4 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6D8B64A2EF2D946004F9BB4 /* Pretendard-Medium.otf */; };
+		B6D8B64D2EF2DA8E004F9BB4 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6D8B64C2EF2DA8E004F9BB4 /* Pretendard-SemiBold.otf */; };
+		B6D8B6532EF2EC59004F9BB4 /* FortuneBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8B6522EF2EC59004F9BB4 /* FortuneBank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6D8B61B2EF2BFB3004F9BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D8B6022EF2BFAA004F9BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D8B6092EF2BFAA004F9BB4;
+			remoteInfo = MoodDot;
+		};
+		B6D8B6252EF2BFB3004F9BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D8B6022EF2BFAA004F9BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D8B6092EF2BFAA004F9BB4;
+			remoteInfo = MoodDot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6AF169D2EF2F87800F6C73E /* fortunes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fortunes.csv; sourceTree = "<group>"; };
+		B6AF169F2EF3024300F6C73E /* SettingsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsHomeView.swift; sourceTree = "<group>"; };
+		B6AF16A12EF302C200F6C73E /* BGMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGMManager.swift; sourceTree = "<group>"; };
+		B6AF16A32EF3033A00F6C73E /* Starlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Starlight.mp3; sourceTree = "<group>"; };
+		B6AF16A52EF303BE00F6C73E /* BackgroundMusicSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMusicSettingsView.swift; sourceTree = "<group>"; };
+		B6AF16A72EF3047900F6C73E /* AppLockSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockSettingsView.swift; sourceTree = "<group>"; };
+		B6AF16AA2EF3059900F6C73E /* GowunDodum-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GowunDodum-Regular.ttf"; sourceTree = "<group>"; };
+		B6C258B02EF307060089FF77 /* AppLockGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockGate.swift; sourceTree = "<group>"; };
+		B6C258B22EF3073E0089FF77 /* AppLockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockManager.swift; sourceTree = "<group>"; };
+		B6C258BE2EF309AD0089FF77 /* Fortune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortune.swift; sourceTree = "<group>"; };
+		B6C258C32EF30B290089FF77 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B6C258C52EF30B510089FF77 /* RegularReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularReminderSettingsView.swift; sourceTree = "<group>"; };
+		B6C258C72EF312AC0089FF77 /* Even-though-a-breeze-blowing-on-snowflakes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Even-though-a-breeze-blowing-on-snowflakes.mp3"; sourceTree = "<group>"; };
+		B6C258C92EF313E80089FF77 /* Days-and-Works.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Days-and-Works.mp3"; sourceTree = "<group>"; };
+		B6C258CB2EF316910089FF77 /* Midnight-Paradise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Midnight-Paradise.mp3"; sourceTree = "<group>"; };
+		B6C258CD2EF318300089FF77 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B6C258CF2EF3219F0089FF77 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B6C258D12EF321BB0089FF77 /* RecordsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsListView.swift; sourceTree = "<group>"; };
+		B6C258D32EF359A50089FF77 /* StatsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsHomeView.swift; sourceTree = "<group>"; };
+		B6C258D52EF35D550089FF77 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		B6D8B60A2EF2BFAA004F9BB4 /* MoodDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D8B60D2EF2BFAA004F9BB4 /* MoodDotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDotApp.swift; sourceTree = "<group>"; };
+		B6D8B6112EF2BFB2004F9BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6D8B61A2EF2BFB3004F9BB4 /* MoodDotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodDotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D8B6242EF2BFB3004F9BB4 /* MoodDotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodDotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D8B6372EF2C14A004F9BB4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B6D8B6392EF2C369004F9BB4 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		B6D8B63B2EF2C454004F9BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D8B63E2EF2CE9A004F9BB4 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		B6D8B6402EF2CFD5004F9BB4 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		B6D8B6422EF2CFFF004F9BB4 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		B6D8B6442EF2D072004F9BB4 /* MoodStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodStore.swift; sourceTree = "<group>"; };
+		B6D8B6462EF2D13E004F9BB4 /* CalendarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHomeView.swift; sourceTree = "<group>"; };
+		B6D8B6482EF2D1B2004F9BB4 /* MoodPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPickerSheet.swift; sourceTree = "<group>"; };
+		B6D8B64A2EF2D946004F9BB4 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		B6D8B64C2EF2DA8E004F9BB4 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		B6D8B6522EF2EC59004F9BB4 /* FortuneBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneBank.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D8B6072EF2BFAA004F9BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D8B6172EF2BFB3004F9BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D8B6212EF2BFB3004F9BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6AF16A92EF3048800F6C73E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8B63B2EF2C454004F9BB4 /* Info.plist */,
+				B6D8B6112EF2BFB2004F9BB4 /* Assets.xcassets */,
+				B6C258C02EF30A4F0089FF77 /* Fonts */,
+				B6C258C12EF30A720089FF77 /* Data */,
+				B6C258C22EF30A820089FF77 /* Audio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B6C258B42EF307AF0089FF77 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258D72EF364A60089FF77 /* Navigation */,
+				B6D8B60D2EF2BFAA004F9BB4 /* MoodDotApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B6C258B52EF307BA0089FF77 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258B62EF308030089FF77 /* Splash */,
+				B6C258B72EF308110089FF77 /* Calendar */,
+				B6C258D82EF364E10089FF77 /* Records */,
+				B6C258DB2EF365460089FF77 /* Stats */,
+				B6C258B82EF3082E0089FF77 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B6C258B62EF308030089FF77 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8B6372EF2C14A004F9BB4 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B6C258B72EF308110089FF77 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8B6462EF2D13E004F9BB4 /* CalendarHomeView.swift */,
+				B6D8B6482EF2D1B2004F9BB4 /* MoodPickerSheet.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		B6C258B82EF3082E0089FF77 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258C52EF30B510089FF77 /* RegularReminderSettingsView.swift */,
+				B6AF169F2EF3024300F6C73E /* SettingsHomeView.swift */,
+				B6AF16A52EF303BE00F6C73E /* BackgroundMusicSettingsView.swift */,
+				B6AF16A72EF3047900F6C73E /* AppLockSettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B6C258B92EF308730089FF77 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258BA2EF3087F0089FF77 /* Models */,
+				B6C258BB2EF308A60089FF77 /* Store */,
+				B6C258BC2EF308BE0089FF77 /* Services */,
+				B6C258BD2EF308E70089FF77 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B6C258BA2EF3087F0089FF77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8B6402EF2CFD5004F9BB4 /* Mood.swift */,
+				B6D8B6422EF2CFFF004F9BB4 /* MoodEntry.swift */,
+				B6C258BE2EF309AD0089FF77 /* Fortune.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6C258BB2EF308A60089FF77 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8B6442EF2D072004F9BB4 /* MoodStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		B6C258BC2EF308BE0089FF77 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258C32EF30B290089FF77 /* NotificationManager.swift */,
+				B6D8B6522EF2EC59004F9BB4 /* FortuneBank.swift */,
+				B6AF16A12EF302C200F6C73E /* BGMManager.swift */,
+				B6C258B22EF3073E0089FF77 /* AppLockManager.swift */,
+				B6C258B02EF307060089FF77 /* AppLockGate.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B6C258BD2EF308E70089FF77 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8B63E2EF2CE9A004F9BB4 /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B6C258C02EF30A4F0089FF77 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258D52EF35D550089FF77 /* Pretendard-Black.otf */,
+				B6D8B6392EF2C369004F9BB4 /* Pretendard-ExtraBold.otf */,
+				B6D8B64C2EF2DA8E004F9BB4 /* Pretendard-SemiBold.otf */,
+				B6D8B64A2EF2D946004F9BB4 /* Pretendard-Medium.otf */,
+				B6AF16AA2EF3059900F6C73E /* GowunDodum-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B6C258C12EF30A720089FF77 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF169D2EF2F87800F6C73E /* fortunes.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B6C258C22EF30A820089FF77 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258CB2EF316910089FF77 /* Midnight-Paradise.mp3 */,
+				B6AF16A32EF3033A00F6C73E /* Starlight.mp3 */,
+				B6C258C72EF312AC0089FF77 /* Even-though-a-breeze-blowing-on-snowflakes.mp3 */,
+				B6C258C92EF313E80089FF77 /* Days-and-Works.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B6C258D72EF364A60089FF77 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258CF2EF3219F0089FF77 /* RootTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B6C258D82EF364E10089FF77 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258D12EF321BB0089FF77 /* RecordsListView.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		B6C258DB2EF365460089FF77 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258D32EF359A50089FF77 /* StatsHomeView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		B6C258DC2EF365A80089FF77 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258CD2EF318300089FF77 /* Fonts.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B6D8B6012EF2BFAA004F9BB4 = {
+			isa = PBXGroup;
+			children = (
+				B6D8B60C2EF2BFAA004F9BB4 /* MoodDot */,
+				B6D8B60B2EF2BFAA004F9BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D8B60B2EF2BFAA004F9BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8B60A2EF2BFAA004F9BB4 /* MoodDot.app */,
+				B6D8B61A2EF2BFB3004F9BB4 /* MoodDotTests.xctest */,
+				B6D8B6242EF2BFB3004F9BB4 /* MoodDotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D8B60C2EF2BFAA004F9BB4 /* MoodDot */ = {
+			isa = PBXGroup;
+			children = (
+				B6C258B42EF307AF0089FF77 /* App */,
+				B6C258B52EF307BA0089FF77 /* Features */,
+				B6C258B92EF308730089FF77 /* Core */,
+				B6C258DC2EF365A80089FF77 /* Shared */,
+				B6AF16A92EF3048800F6C73E /* Resources */,
+			);
+			path = MoodDot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D8B6092EF2BFAA004F9BB4 /* MoodDot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D8B62E2EF2BFB3004F9BB4 /* Build configuration list for PBXNativeTarget "MoodDot" */;
+			buildPhases = (
+				B6D8B6062EF2BFAA004F9BB4 /* Sources */,
+				B6D8B6072EF2BFAA004F9BB4 /* Frameworks */,
+				B6D8B6082EF2BFAA004F9BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodDot;
+			productName = MoodDot;
+			productReference = B6D8B60A2EF2BFAA004F9BB4 /* MoodDot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6D8B6192EF2BFB3004F9BB4 /* MoodDotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D8B6312EF2BFB3004F9BB4 /* Build configuration list for PBXNativeTarget "MoodDotTests" */;
+			buildPhases = (
+				B6D8B6162EF2BFB3004F9BB4 /* Sources */,
+				B6D8B6172EF2BFB3004F9BB4 /* Frameworks */,
+				B6D8B6182EF2BFB3004F9BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D8B61C2EF2BFB3004F9BB4 /* PBXTargetDependency */,
+			);
+			name = MoodDotTests;
+			productName = MoodDotTests;
+			productReference = B6D8B61A2EF2BFB3004F9BB4 /* MoodDotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6D8B6232EF2BFB3004F9BB4 /* MoodDotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D8B6342EF2BFB3004F9BB4 /* Build configuration list for PBXNativeTarget "MoodDotUITests" */;
+			buildPhases = (
+				B6D8B6202EF2BFB3004F9BB4 /* Sources */,
+				B6D8B6212EF2BFB3004F9BB4 /* Frameworks */,
+				B6D8B6222EF2BFB3004F9BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D8B6262EF2BFB3004F9BB4 /* PBXTargetDependency */,
+			);
+			name = MoodDotUITests;
+			productName = MoodDotUITests;
+			productReference = B6D8B6242EF2BFB3004F9BB4 /* MoodDotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D8B6022EF2BFAA004F9BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B6D8B6092EF2BFAA004F9BB4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B6D8B6192EF2BFB3004F9BB4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B6D8B6092EF2BFAA004F9BB4;
+					};
+					B6D8B6232EF2BFB3004F9BB4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B6D8B6092EF2BFAA004F9BB4;
+					};
+				};
+			};
+			buildConfigurationList = B6D8B6052EF2BFAA004F9BB4 /* Build configuration list for PBXProject "MoodDot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6D8B6012EF2BFAA004F9BB4;
+			productRefGroup = B6D8B60B2EF2BFAA004F9BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D8B6092EF2BFAA004F9BB4 /* MoodDot */,
+				B6D8B6192EF2BFB3004F9BB4 /* MoodDotTests */,
+				B6D8B6232EF2BFB3004F9BB4 /* MoodDotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D8B6082EF2BFAA004F9BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D8B6122EF2BFB2004F9BB4 /* Assets.xcassets in Resources */,
+				B6AF16A42EF3033A00F6C73E /* Starlight.mp3 in Resources */,
+				B6D8B63A2EF2C369004F9BB4 /* Pretendard-ExtraBold.otf in Resources */,
+				B6C258CC2EF316910089FF77 /* Midnight-Paradise.mp3 in Resources */,
+				B6C258D62EF35D550089FF77 /* Pretendard-Black.otf in Resources */,
+				B6D8B64B2EF2D946004F9BB4 /* Pretendard-Medium.otf in Resources */,
+				B6C258CA2EF313E80089FF77 /* Days-and-Works.mp3 in Resources */,
+				B6AF169E2EF2F87800F6C73E /* fortunes.csv in Resources */,
+				B6D8B64D2EF2DA8E004F9BB4 /* Pretendard-SemiBold.otf in Resources */,
+				B6C258C82EF312AC0089FF77 /* Even-though-a-breeze-blowing-on-snowflakes.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D8B6182EF2BFB3004F9BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D8B6222EF2BFB3004F9BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D8B6062EF2BFAA004F9BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D8B6412EF2CFD5004F9BB4 /* Mood.swift in Sources */,
+				B6C258C42EF30B290089FF77 /* NotificationManager.swift in Sources */,
+				B6C258D22EF321BB0089FF77 /* RecordsListView.swift in Sources */,
+				B6C258B32EF3073E0089FF77 /* AppLockManager.swift in Sources */,
+				B6C258B12EF307060089FF77 /* AppLockGate.swift in Sources */,
+				B6D8B6472EF2D13E004F9BB4 /* CalendarHomeView.swift in Sources */,
+				B6AF16A02EF3024300F6C73E /* SettingsHomeView.swift in Sources */,
+				B6C258D02EF3219F0089FF77 /* RootTabView.swift in Sources */,
+				B6D8B60E2EF2BFAA004F9BB4 /* MoodDotApp.swift in Sources */,
+				B6D8B6452EF2D072004F9BB4 /* MoodStore.swift in Sources */,
+				B6C258C62EF30B510089FF77 /* RegularReminderSettingsView.swift in Sources */,
+				B6C258D42EF359A50089FF77 /* StatsHomeView.swift in Sources */,
+				B6D8B6432EF2CFFF004F9BB4 /* MoodEntry.swift in Sources */,
+				B6D8B6532EF2EC59004F9BB4 /* FortuneBank.swift in Sources */,
+				B6D8B63F2EF2CE9A004F9BB4 /* Color+Hex.swift in Sources */,
+				B6AF16A22EF302C200F6C73E /* BGMManager.swift in Sources */,
+				B6C258BF2EF309AD0089FF77 /* Fortune.swift in Sources */,
+				B6D8B6492EF2D1B2004F9BB4 /* MoodPickerSheet.swift in Sources */,
+				B6D8B6382EF2C14A004F9BB4 /* SplashView.swift in Sources */,
+				B6AF16A62EF303BE00F6C73E /* BackgroundMusicSettingsView.swift in Sources */,
+				B6C258CE2EF318300089FF77 /* Fonts.swift in Sources */,
+				B6AF16A82EF3047900F6C73E /* AppLockSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D8B6162EF2BFB3004F9BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D8B6202EF2BFB3004F9BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6D8B61C2EF2BFB3004F9BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D8B6092EF2BFAA004F9BB4 /* MoodDot */;
+			targetProxy = B6D8B61B2EF2BFB3004F9BB4 /* PBXContainerItemProxy */;
+		};
+		B6D8B6262EF2BFB3004F9BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D8B6092EF2BFAA004F9BB4 /* MoodDot */;
+			targetProxy = B6D8B6252EF2BFB3004F9BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6D8B62C2EF2BFB3004F9BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6D8B62D2EF2BFB3004F9BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6D8B62F2EF2BFB3004F9BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoodDot/Preview Content\"";
+				DEVELOPMENT_TEAM = UB4QNDMA78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunji.MoodDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6D8B6302EF2BFB3004F9BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoodDot/Preview Content\"";
+				DEVELOPMENT_TEAM = UB4QNDMA78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunji.MoodDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6D8B6322EF2BFB3004F9BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB4QNDMA78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunji.MoodDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodDot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodDot";
+			};
+			name = Debug;
+		};
+		B6D8B6332EF2BFB3004F9BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB4QNDMA78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunji.MoodDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodDot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodDot";
+			};
+			name = Release;
+		};
+		B6D8B6352EF2BFB3004F9BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB4QNDMA78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunji.MoodDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodDot;
+			};
+			name = Debug;
+		};
+		B6D8B6362EF2BFB3004F9BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB4QNDMA78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunji.MoodDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodDot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D8B6052EF2BFAA004F9BB4 /* Build configuration list for PBXProject "MoodDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D8B62C2EF2BFB3004F9BB4 /* Debug */,
+				B6D8B62D2EF2BFB3004F9BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D8B62E2EF2BFB3004F9BB4 /* Build configuration list for PBXNativeTarget "MoodDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D8B62F2EF2BFB3004F9BB4 /* Debug */,
+				B6D8B6302EF2BFB3004F9BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D8B6312EF2BFB3004F9BB4 /* Build configuration list for PBXNativeTarget "MoodDotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D8B6322EF2BFB3004F9BB4 /* Debug */,
+				B6D8B6332EF2BFB3004F9BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D8B6342EF2BFB3004F9BB4 /* Build configuration list for PBXNativeTarget "MoodDotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D8B6352EF2BFB3004F9BB4 /* Debug */,
+				B6D8B6362EF2BFB3004F9BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D8B6022EF2BFAA004F9BB4 /* Project object */;
+}
